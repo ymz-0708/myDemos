@@ -6,7 +6,7 @@ const resolve = (dir: string) => path.join(__dirname, dir)
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/myDemos/',
+  base: './',
   resolve: {
     alias: {
       '@': resolve('src')
@@ -14,6 +14,5 @@ export default defineConfig({
   },
   server: {
     open: true,
-    port: 8081
   }
 })
