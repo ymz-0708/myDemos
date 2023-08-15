@@ -1,6 +1,5 @@
 <template>
     <div class="app">
-        <input></input>
         <div class="box">
             <span class="content"> 单行居中，多行居左 </span>
         </div>
@@ -9,6 +8,7 @@
 
 <script setup lang="ts">
 import { ref, reactive } from "vue";
+
 </script>
 
 <style lang="scss" scoped>
