@@ -16,11 +16,10 @@ export default defineConfig({
         },
     },
     server: {
-        port: 3000,
         proxy: {
             "/proxy": {
                 // 跨域配置
-                target: configJs.SERVER_URL,
+                target: 'development' === process.env.NODE_ENV ? configJs.LOCAL_SERVER_URL : configJs.SERVER_URL,
                 changeOrigin: true,
                 rewrite: (path) => path.replace(/^\/proxy/, ""),
             },
