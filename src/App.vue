@@ -16,7 +16,6 @@ const value = ref<string>("");
 
 const success = () => {
     http.get('/users',{value:value.value}).then((res: any) => {
-        console.log(res);
         result.value = res
     })
 };

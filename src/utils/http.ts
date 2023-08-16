@@ -9,7 +9,7 @@ import { ElMessage } from "element-plus";
  * @param params 请求参数
  */
 function axiosMethods(method: string, url: string, params: object): Promise<AxiosResponse> {
-    const apiUrl = "development" === process.env.NODE_ENV ? `/proxy${url}` : `${url}`;
+    const apiUrl = "development" === process.env.NODE_ENV ? `/proxy${url}` : `/api${url}`;
     let axiosParams: AxiosRequestConfig = {
         method,
         url: apiUrl,
