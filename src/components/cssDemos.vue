@@ -1,7 +1,7 @@
 <template>
     <div class="app">
         <div class="box">
-            <span class="content"> 单行居中，多行居左 </span>
+            <span class="content"> 主页 </span>
         </div>
     </div>
 </template>
