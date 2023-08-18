@@ -1,0 +1,1 @@
+import{d as o,c,o as t,p as _,e as a,f as e,_ as p}from"./index-2595365a.js";const n=s=>(_("data-v-4af5881e"),s=s(),a(),s),d={class:"app"},r=n(()=>e("div",{class:"box"},[e("span",{class:"content"}," 主页 ")],-1)),i=[r],f=o({__name:"cssDemos",setup(s){return(l,m)=>(t(),c("div",d,i))}});const h=p(f,[["__scopeId","data-v-4af5881e"]]);export{h as default};

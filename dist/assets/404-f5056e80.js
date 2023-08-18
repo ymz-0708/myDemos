@@ -1,0 +1,1 @@
+import{d as _,u as c,r as n,c as a,a as e,b as r,w as p,o as u,_ as d}from"./index-2595365a.js";const l={class:"pg-404"},m=_({__name:"404",setup(i){const t=c(),o=()=>{t.push("/")};return(f,x)=>{const s=n("el-button");return u(),a("div",l,[e(" 404 "),r(s,{onClick:o},{default:p(()=>[e("HOME")]),_:1})])}}});const h=d(m,[["__scopeId","data-v-6c557980"]]);export{h as default};
